@@ -1,0 +1,20 @@
+spring:
+  mail:
+    host: localhost
+    properties:
+      mail:
+        transport:
+          protocol: smtp
+        smtp:
+          port: 1025
+          auth: false
+          starttls:
+            enable: false
+            required: false
+  data:
+    mongodb:
+      database: mhp
+
+retry:
+  mechanism:
+    senderadress: info@mhp.com
